@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26186CC614104AB800BA2ECD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26186CC514104AB800BA2ECD /* UIKit.framework */; };
+		26186CC814104AB800BA2ECD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26186CC714104AB800BA2ECD /* Foundation.framework */; };
+		26186CCA14104AB800BA2ECD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26186CC914104AB800BA2ECD /* CoreGraphics.framework */; };
+		26186CD014104AB800BA2ECD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26186CCE14104AB800BA2ECD /* InfoPlist.strings */; };
+		26186CD214104AB800BA2ECD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26186CD114104AB800BA2ECD /* main.m */; };
+		26186CD614104AB800BA2ECD /* CircleDisplayAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26186CD514104AB800BA2ECD /* CircleDisplayAppDelegate.m */; };
+		26186CD914104AB800BA2ECD /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26186CD714104AB800BA2ECD /* MainWindow.xib */; };
+		26186CDC14104AB800BA2ECD /* CircleDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26186CDB14104AB800BA2ECD /* CircleDisplayViewController.m */; };
+		26186CDF14104AB800BA2ECD /* CircleDisplayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26186CDD14104AB800BA2ECD /* CircleDisplayViewController.xib */; };
+		26186CE714104ADE00BA2ECD /* CircleDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26186CE614104ADE00BA2ECD /* CircleDisplayView.m */; };
+		26186CE914104EC600BA2ECD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26186CE814104EC600BA2ECD /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26186CC114104AB800BA2ECD /* CircleDisplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleDisplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26186CC514104AB800BA2ECD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		26186CC714104AB800BA2ECD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		26186CC914104AB800BA2ECD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		26186CCD14104AB800BA2ECD /* CircleDisplay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CircleDisplay-Info.plist"; sourceTree = "<group>"; };
+		26186CCF14104AB800BA2ECD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		26186CD114104AB800BA2ECD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26186CD314104AB800BA2ECD /* CircleDisplay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CircleDisplay-Prefix.pch"; sourceTree = "<group>"; };
+		26186CD414104AB800BA2ECD /* CircleDisplayAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleDisplayAppDelegate.h; sourceTree = "<group>"; };
+		26186CD514104AB800BA2ECD /* CircleDisplayAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleDisplayAppDelegate.m; sourceTree = "<group>"; };
+		26186CD814104AB800BA2ECD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		26186CDA14104AB800BA2ECD /* CircleDisplayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleDisplayViewController.h; sourceTree = "<group>"; };
+		26186CDB14104AB800BA2ECD /* CircleDisplayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleDisplayViewController.m; sourceTree = "<group>"; };
+		26186CDE14104AB800BA2ECD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CircleDisplayViewController.xib; sourceTree = "<group>"; };
+		26186CE514104ADE00BA2ECD /* CircleDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleDisplayView.h; sourceTree = "<group>"; };
+		26186CE614104ADE00BA2ECD /* CircleDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleDisplayView.m; sourceTree = "<group>"; };
+		26186CE814104EC600BA2ECD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26186CBE14104AB800BA2ECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26186CE914104EC600BA2ECD /* QuartzCore.framework in Frameworks */,
+				26186CC614104AB800BA2ECD /* UIKit.framework in Frameworks */,
+				26186CC814104AB800BA2ECD /* Foundation.framework in Frameworks */,
+				26186CCA14104AB800BA2ECD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26186CB614104AB800BA2ECD = {
+			isa = PBXGroup;
+			children = (
+				26186CCB14104AB800BA2ECD /* CircleDisplay */,
+				26186CC414104AB800BA2ECD /* Frameworks */,
+				26186CC214104AB800BA2ECD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26186CC214104AB800BA2ECD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26186CC114104AB800BA2ECD /* CircleDisplay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26186CC414104AB800BA2ECD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26186CE814104EC600BA2ECD /* QuartzCore.framework */,
+				26186CC514104AB800BA2ECD /* UIKit.framework */,
+				26186CC714104AB800BA2ECD /* Foundation.framework */,
+				26186CC914104AB800BA2ECD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26186CCB14104AB800BA2ECD /* CircleDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				26186CD414104AB800BA2ECD /* CircleDisplayAppDelegate.h */,
+				26186CD514104AB800BA2ECD /* CircleDisplayAppDelegate.m */,
+				26186CD714104AB800BA2ECD /* MainWindow.xib */,
+				26186CDA14104AB800BA2ECD /* CircleDisplayViewController.h */,
+				26186CDB14104AB800BA2ECD /* CircleDisplayViewController.m */,
+				26186CDD14104AB800BA2ECD /* CircleDisplayViewController.xib */,
+				26186CCC14104AB800BA2ECD /* Supporting Files */,
+				26186CE514104ADE00BA2ECD /* CircleDisplayView.h */,
+				26186CE614104ADE00BA2ECD /* CircleDisplayView.m */,
+			);
+			path = CircleDisplay;
+			sourceTree = "<group>";
+		};
+		26186CCC14104AB800BA2ECD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26186CCD14104AB800BA2ECD /* CircleDisplay-Info.plist */,
+				26186CCE14104AB800BA2ECD /* InfoPlist.strings */,
+				26186CD114104AB800BA2ECD /* main.m */,
+				26186CD314104AB800BA2ECD /* CircleDisplay-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26186CC014104AB800BA2ECD /* CircleDisplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26186CE214104AB800BA2ECD /* Build configuration list for PBXNativeTarget "CircleDisplay" */;
+			buildPhases = (
+				26186CBD14104AB800BA2ECD /* Sources */,
+				26186CBE14104AB800BA2ECD /* Frameworks */,
+				26186CBF14104AB800BA2ECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleDisplay;
+			productName = CircleDisplay;
+			productReference = 26186CC114104AB800BA2ECD /* CircleDisplay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26186CB814104AB800BA2ECD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Mindgrub Technologies";
+			};
+			buildConfigurationList = 26186CBB14104AB800BA2ECD /* Build configuration list for PBXProject "CircleDisplay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 26186CB614104AB800BA2ECD;
+			productRefGroup = 26186CC214104AB800BA2ECD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26186CC014104AB800BA2ECD /* CircleDisplay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26186CBF14104AB800BA2ECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26186CD014104AB800BA2ECD /* InfoPlist.strings in Resources */,
+				26186CD914104AB800BA2ECD /* MainWindow.xib in Resources */,
+				26186CDF14104AB800BA2ECD /* CircleDisplayViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26186CBD14104AB800BA2ECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26186CD214104AB800BA2ECD /* main.m in Sources */,
+				26186CD614104AB800BA2ECD /* CircleDisplayAppDelegate.m in Sources */,
+				26186CDC14104AB800BA2ECD /* CircleDisplayViewController.m in Sources */,
+				26186CE714104ADE00BA2ECD /* CircleDisplayView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26186CCE14104AB800BA2ECD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26186CCF14104AB800BA2ECD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		26186CD714104AB800BA2ECD /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26186CD814104AB800BA2ECD /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		26186CDD14104AB800BA2ECD /* CircleDisplayViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26186CDE14104AB800BA2ECD /* en */,
+			);
+			name = CircleDisplayViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26186CE014104AB800BA2ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26186CE114104AB800BA2ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26186CE314104AB800BA2ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircleDisplay/CircleDisplay-Prefix.pch";
+				INFOPLIST_FILE = "CircleDisplay/CircleDisplay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26186CE414104AB800BA2ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircleDisplay/CircleDisplay-Prefix.pch";
+				INFOPLIST_FILE = "CircleDisplay/CircleDisplay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26186CBB14104AB800BA2ECD /* Build configuration list for PBXProject "CircleDisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26186CE014104AB800BA2ECD /* Debug */,
+				26186CE114104AB800BA2ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26186CE214104AB800BA2ECD /* Build configuration list for PBXNativeTarget "CircleDisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26186CE314104AB800BA2ECD /* Debug */,
+				26186CE414104AB800BA2ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26186CB814104AB800BA2ECD /* Project object */;
+}
